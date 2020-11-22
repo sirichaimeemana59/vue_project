@@ -32,4 +32,4 @@ Route::any('/delete_item/{id}','API\APIItemController@destroy');
 
 
 
-
+Route::get('/test','FirebaseController@index');
